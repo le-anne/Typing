@@ -1,0 +1,31 @@
+.error {
+    background-color: deeppink;
+}
+
+span:after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+}
+
+.highlight {
+    color: #009933;
+    text-decoration: underline;
+
+}
+
+html {
+    background: #99CCFF;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 2rem;
+  }
+
+  p {
+    max-width: 600px;
+    text-align: center;
